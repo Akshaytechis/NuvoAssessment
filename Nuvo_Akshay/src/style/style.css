@@ -52,7 +52,7 @@
   font-weight: 500;
 }
 .description .button {
-  margin: 420px 100px 0px 140px;
+  margin: 600px 100px 0px 225px;
 }
 .description .button button {
   padding: 10px 20px;
@@ -61,10 +61,31 @@
   border-radius: 10px;
   color: #fff;
 }
-
-.star {
-  display: flex;
+@media screen and (max-width: 450px) {
+  .items {
+    flex-direction: column;
+  }
+  .items .home {
+    width: 100%;
+  }
+  .items .info {
+    width: 100%;
+  }
+  .description .button {
+    margin: 130px 50px 0px 85px;
+  }
 }
-.star img {
-  width: 18px;
+@media screen and (max-width: 850px) and (min-width: 450px) {
+  .items {
+    flex-direction: column;
+  }
+  .items .home {
+    width: 80%;
+  }
+  .items .info {
+    width: 80%;
+  }
+  .description .button {
+    margin: 265px 90px 0px 155px;
+  }
 }

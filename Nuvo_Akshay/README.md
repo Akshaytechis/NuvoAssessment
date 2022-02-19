@@ -1,6 +1,6 @@
 # Nuvo Challenge Mockup
 
-Check out [FRONTEND LIVE DEMO](https://frontend-akshay.herokuapp.com/) here!!
+Check out [FRONTEND LIVE DEMO](https://nuvo-assessment.herokuapp.com/) here!!
 
 ## Tech used
 

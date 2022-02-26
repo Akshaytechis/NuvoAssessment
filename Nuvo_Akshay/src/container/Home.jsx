@@ -26,15 +26,7 @@ const Home = () => {
       <div className="items">
         <div class="home">
           {products.map((product) => (
-            <div
-              className="select"
-              key={product.id}
-              onClick={() => setSelected(product.id)}
-            >
-              <img className="productImg" src={product.image} />
-              <br />
-              <p>{product.title}</p>
-            </div>
+            <Select key = {product.id} product={product} selected={selected} setSelected={setSelected}/>
           ))}
         </div>
         <div className="info">

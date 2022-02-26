@@ -1,5 +1,5 @@
-import React from 'react'
-import '../style/style.css'
+import React from "react";
+import "../style/style.scss";
 
 const Heading = () => {
   return (
@@ -12,6 +12,6 @@ const Heading = () => {
       </p>
     </div>
   );
-}
+};
 
-export default Heading
+export default Heading;

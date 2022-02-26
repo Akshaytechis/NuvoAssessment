@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Star from "./Star";
 
 const Description = ({ product, selected }) => {
   const [productDetails, setProductDetails] = useState("");
@@ -14,6 +15,8 @@ const Description = ({ product, selected }) => {
       <div className={productDetails} key={product.id}>
         <h2>${product.price}</h2>
         <h4>{product.description}</h4>
+        <Star key={product.id} rating={product.rating} />
+
         <div className="button">
           <button>Add to Cart</button>
         </div>
